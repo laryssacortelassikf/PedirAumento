@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #4a148c; 
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #0288d1; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.texto {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.botoes {
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px; 
+    background-color: #0288d1; 
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0277bd; 
+    transform: scale(1.1); 
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.imagem {
+    width: 100%;
+    max-width: 400px; 
+    height: auto; 
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.atributos {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #333;
+    list-style-type: none;
+    padding: 0;
+}
+
+.atributos li {
+    margin: 15px 0;
+    font-weight: bold;
+    color: #80deea; 
+}
